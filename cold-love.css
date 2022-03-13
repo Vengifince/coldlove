@@ -112,7 +112,7 @@ font-family: 'Montserrat', sans-serif;
 .coldlove-notebox a
 {font-family: 'Yeseva One', cursive;
   text-decoration: none;
-  color: rgba(var(--main));
+  color: rgba(var(--main)) !important;
   text-transform: uppercase;
 }
 
@@ -122,6 +122,6 @@ color: rgba(var(--main));
 }
 
 .coldlove-notebox a:hover {
-color: rgba(var(--accent));
+color: rgba(var(--accent)) !important;
 transition: 0.5s;
 }
