@@ -1,0 +1,127 @@
+
+
+.coldlove-container {
+margin: 20px auto;
+padding: 50px;
+width: 400px;
+background: rgba(var(--main));
+font-size: 12px;
+color: #414141;
+line-height: 18px;
+text-align: justify;
+border-radius: 10px;
+border-style: solid;
+border-color: #e5e5e5;
+border-width: 1px;
+}
+
+.coldlove-header
+{margin-left: -50px;
+margin-top: -50px;
+width: 500px;
+height: 100px;
+border-radius: 10px 10px 0px 0px;
+  background: rgba(var(--accent));
+  
+}
+
+.coldlove-half
+
+{position: absolute;
+margin-left: 110px;
+margin-bottom: 20px;
+width: 110px;
+  padding: 25px;
+  height: 30px;
+  background: rgba(var(--main));
+  border-radius: 90px 90px 0px 0px;
+}
+
+.coldlove-half span
+
+{font-size: 50px;
+  padding-left: 30px;
+  color: rgba(var(--third));
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(var(--accent));
+}
+
+.coldlove-body
+{margin-top: 40px;
+margin-left: -15px;
+width: 350px;
+padding: 40px;
+min-height: 150px;
+background: #eee;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+line-height: 22px;
+}
+
+.coldlove-body b
+
+{color: rgba(var(--main))}
+
+.coldlove-body i
+{
+color: rgba(var(--accent));
+font-weight: bold;
+    position: relative;
+    text-decoration: none;
+     background: linear-gradient(130deg, rgba(var(--main), 0.5) 41.07%, rgba(var(--accent), 0.5) 76.05%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  padding-bottom: 2px;
+  background-repeat: repeat-x;
+}
+.coldlove-body h1
+
+{margin-top: -20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Yeseva One', cursive;
+}
+
+.coldlove-body hr
+
+{margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+   height: 1px;
+        background-color: rgba(var(--third));
+        border: none;
+}
+
+.coldlove-notebox
+{
+background: rgba(var(--third));
+min-height: 10px;
+width: 410px;
+margin-left: -40px;
+padding: 10px;
+margin-top: 15px;
+margin-bottom: -60px;
+border-radius: 0px 0px 10px 10px;
+font-size: 12px;
+color: #707070;
+font-family: 'Montserrat', sans-serif;
+}
+
+.coldlove-notebox a
+{font-family: 'Yeseva One', cursive;
+  text-decoration: none;
+  color: rgba(var(--main));
+  text-transform: uppercase;
+}
+
+.coldlove-notebox a::before
+{content: '#';
+color: rgba(var(--main));
+}
+
+.coldlove-notebox a:hover {
+color: rgba(var(--accent));
+transition: 0.5s;
+}
